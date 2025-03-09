@@ -1,9 +1,12 @@
 **Прочитать эту страницу по-русски** | [Read this page in English](https://github.com/vazhka-dolya/ChameleonCK/blob/main/README.md)
 # ChameleonCK
-**ChameleonCK** (или же просто **Chameleon**; сокращено **CCK**) — инструмент для хромакея в Super Mario 64, включающий в себя адд-он для [Mario 64 Movie Maker 3](https://github.com/projectcomet64/M64MM), задуманный для использования вместе со специальным ROM'ом или сохранением.
+**ChameleonCK** (или же просто **Chameleon**; сокращено **CCK**) — инструмент для хромакея в Super Mario 64, включающий в себя адд-он для [Mario 64 Movie Maker 3](https://github.com/projectcomet64/M64MM), задуманный для использования вместе со специальным ROM'ом или сохранением. Также, рекомендуется использовать адд-он [Tiny-Huge Tweaks](https://github.com/vazhka-dolya/TinyHugeTweaks) вместе с этим инструментом.
 <p align="center">
   <img src="https://github.com/vazhka-dolya/ChameleonCK/blob/main/GitHubImg/CCK_showcase.gif"/>
 </p>
+<div align="center">
+  <h6>Показанную модель можно найти <a href="https://www.youtube.com/watch?v=6gp2YUWJJQ8">здесь</a></h6>
+</div>
 
 # Установка и использование
 1. Убедитесь, что у Вас установлена [последняя версия M64MM3](https://github.com/projectcomet64/M64MM/releases/latest).
