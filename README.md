@@ -31,6 +31,7 @@ When **Hide Stage** is disabled, what you are seeing is the stage itself, but wh
 
 # Credits
 - GlitchyPSI ([his website](https://glitchypsi.xyz)) — help with this add-on.
+- LiquoricePie ([Bluesky](https://bsky.app/profile/liquoricepie.bsky.social)) – icon for the add-on.
 [^1]: For legal reasons, to get the ROM version, you need to have an original US ROM of Super Mario 64 that you then need to patch with the BPS file, which can be done using [this website](https://hack64.net/tools/patcher.php).
 [^2]: That means *all* the contents, including the `deps` folder. If it crashes when opening the About window, make sure that you have `HtmlRenderer.dll` and `HtmlRenderer.WinForms.dll` in M64MM's `deps` folder.
 [^3]: That's the same folder where `M64MM.exe` is located.
