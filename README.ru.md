@@ -34,7 +34,7 @@
 
 # Благодарность
 - GlitchyPSI ([его сайт](https://glitchypsi.xyz)) — помощь с данным адд-оном.
-- LiquoricePie ([Bluesky](https://bsky.app/profile/liquoricepie.bsky.social)) – иконка адд-она.
+- LiquoricePie ([Bluesky](https://bsky.app/profile/liquoricepie.bsky.social)) — иконка адд-она.
 [^1]: По юридическим причинам, чтобы получить ROM-версию, Вам необходимо изначально иметь оригинальный американский ROM Super Mario 64, который нужно пропатчить используя предоставленный BPS-файл, что можно сделать используя вот этот [сайт](https://hack64.net/tools/patcher.php).
 [^2]: Это значит *всё* содержимое, включая папку `deps`. Если адд-он вылетает при попытке открыть окно **Об адд-оне**, то убедитесь, что у вас есть файлы `HtmlRenderer.dll` и `HtmlRenderer.WinForms.dll` в папке `deps` в M64MM3.
 [^3]: Это та же папка, где хранится и `M64MM.exe`.
