@@ -1,6 +1,6 @@
 [Прочитать эту страницу по-русски](https://github.com/vazhka-dolya/ChameleonCK/blob/main/README.ru.md) | **Read this page in English**
 # ChameleonCK
-**ChameleonCK** (or simply **Chameleon**; abbreviated to **CCK**) is a suite for chroma keying in Super Mario 64, which includes a [Mario 64 Movie Maker 3](https://github.com/projectcomet64/M64MM) add-on meant to be used together with a special ROM or save state.
+**ChameleonCK** (or simply **Chameleon**; abbreviated to **CCK**) is a tool for chroma keying in Super Mario 64, which includes a [Mario 64 Movie Maker 3](https://github.com/projectcomet64/M64MM) add-on meant to be used together with a special ROM or save state.
 <p align="center">
   <img src="https://github.com/vazhka-dolya/ChameleonCK/blob/main/GitHubImg/CCK_showcase.gif"/>
 </p>
