@@ -16,7 +16,7 @@
 ### “Can it be used with custom player models?”
 Yes! You can use [CometCHAR](https://github.com/projectcomet64/CometCHAR) to patch the ROM version with a `CMTP` file.
 ### “Why are the colors slightly different when enabling/disabling **Hide Stage**?”
-When **Hide Stage** is disabled, what you are seeing is the stage itself, but when it's enabled, then the stage doesn't get rendered, and instead you are seeing the skybox. The stage's material uses an RGBA32 color, which has a higher bit depth; the skybox uses RGBA16, which has a lower bit depth.
+When **Hide Stage** is disabled, what you are seeing is the stage itself, but when it's enabled, then the stage doesn't get rendered, and instead you are seeing the skybox. The stage's material uses an RGBA32 color, which has a higher bit depth; SM64's skybox uses RGBA16, which has a lower bit depth.
 # Building prerequisites
 <details>
   <summary>Click here to view</summary>
