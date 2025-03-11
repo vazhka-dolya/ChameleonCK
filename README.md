@@ -13,7 +13,7 @@
 2. Get the save state and/or the ROM version[^1] from [here](https://github.com/vazhka-dolya/ChameleonCK/tree/main/SM64) (ignore the `ROM Hack Source` folder if you're a normal user).
 3. Download the [latest version of the add-on](https://github.com/vazhka-dolya/ChameleonCK/releases/latest). It will be in a `.zip` archive.
 4. Extract the downloaded archive's contents[^2] into the root folder[^3] of M64MM3. If it prompts you to replace files, then do it.
-5. If you're using the ROM version, go to Bob-Omb Battlefield, which is replaced with the chroma key stage. If you're using the save state, then, in Project64, go to **Options** > **Settings…** > **Options**, and make sure **Hide advanced settings** is disabled. After that, launch a normal Super Mario 64 ROM, then go to **System** > **Load…**, and select the save state. If it gives a warning about the ROM not matching the save state, then simply click “Yes.”
+5. If you're using the ROM version, go to Bob-Omb Battlefield, which is replaced with the chroma key stage. If you're using the save state, then, in Project64, go to **Options** > **Settings…** > **Options**, and make sure **Hide advanced settings** is disabled. After that, launch a normal Super Mario 64 ROM, then go to **System** > **Load…**, and select the save state. If it gives a warning about the ROM not matching the save state, then simply click “Yes.” ***You don't have to load the save state over the ROM version; you can use the save state with a normal Super Mario 64 ROM, too.***
 6. That's all.
 # Questions
 ### “Can it be used with custom player models?”
