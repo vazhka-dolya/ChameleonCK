@@ -1,0 +1,27 @@
+Blender version used: 4.2.0
+
+This ROM hack uses SM64 ROM Manager
+
+Place the .config file next to the ROM hack
+
+Level replaced: Bob-Omb Battlefield
+Model import size: 16000
+Shading – ambient: #FFFFFF
+Shading – diffuse: #FFFFFF
+
+Byte at 01231F4D (near distance) changed from 64 to 01
+
+Tweaks applied:
+• Remove 'Black Bars' (Vert. Resolution Limit) (Applied by Default)
+• Accurate GFX plugins will have less input lag
+• B. Param 4 won't softlock
+• Culling of Objects Uses Wider Field of View
+• Disable low-poly mario
+• Fix Big Object Render Distance
+• Fix Smoke Texture
+• Fix tree particles
+• Increase Draw Distance Limit
+• Toad won't fade in or out
+• Parallel Lakitu Camera
+• No air underwater
+• Remove Water Upwarp
