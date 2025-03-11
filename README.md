@@ -20,7 +20,7 @@
    - In Project64, go to **Options** > **Settings…** > **Options**, and make sure **Hide advanced settings** is disabled. After that, launch a normal Super Mario 64 ROM, then go to **System** > **Load…**, and select the save state. If it gives a warning about the ROM not matching the save state, then simply click “Yes.” ***You don't have to load the save state over the ROM version; you can use the save state with a normal Super Mario 64 ROM, too.***
 7. That's all.
 # Questions
-### “If I use Tiny-Huge Tweaks for my work, do I have to credit you?”
+### “If I use ChameleonCK for my work, do I have to credit you?”
 Credit is highly appreciated, but completely optional!
 ### “Can it be used with custom player models?”
 Yes! You can use [CometCHAR](https://github.com/projectcomet64/CometCHAR) to patch the ROM version with a `CMTP` file.
