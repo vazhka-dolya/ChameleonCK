@@ -25,4 +25,4 @@ Tweaks applied:
 • No air underwater
 • Remove Water Upwarp
 
-Note: 1.0.1 had the "Accurate GFX plugins will have less input lag" tweak removed using another tweak that I made, which you can find here.
+Note: 1.0.1 had the "Accurate GFX plugins will have less input lag" tweak removed using another tweak that I made, which you can find here. The reason the aforementioned tweak has been reverted is that it breaks RiceVideo support for some reason.
