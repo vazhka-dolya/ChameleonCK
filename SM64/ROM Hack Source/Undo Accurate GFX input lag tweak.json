@@ -1,0 +1,24 @@
+{
+  "Name": "Undo the \"Accurate GFX plugins will have less input lag\" tweak",
+  "Scripts": [
+    {
+      "Name": "Undo",
+      "Script": "2F9D: 0A 80 33 95 4A D5 DC 3C 01 80 33 25 4B 00 01 A4 2B D5 DC 3C 0C 80 33 8D 8C D5 D4 3C 01 80 33 25 8D 00 01 AC 2D\n315C: 3C 09 80 33 95 29 D5 D8 3C 01 80 33 25 2A 00 01 A4 2A D5 D8 24 01 00 03 31 4B FF FF 15 61 00 03 00 00 00 00 3C 01 80 33 A4 20 D5 D8 3C 0C 80 33 95 8C D5 DC 3C 01 80 33 25 8D 00 01 A4 2D D5 DC 24 01 00 03 31 AE FF FF 15 C1 00 03 00 00 00 00 3C 01 80 33 A4 20",
+      "Type": "TweakScript",
+      "Description": "",
+      "References": [],
+      "ID": "3A7DEDD7FB783845DB970CDCB13CB62E",
+      "AllowRevert": false
+    }
+  ],
+  "Version": "1.0.0.0",
+  "MinVersion": "1.14.4.0",
+  "MaxVersion": "0.0.0.0",
+  "Description": "For some reason, that tweak causes the hack to not work on plugins like RiceVideo, so this tweak can undo that.\n\nMade by DanilAstroid.",
+  "EmbeddedFiles": {
+    "CompressedFiles": {}
+  },
+  "ID": "7B049351D46353DECD962C3C3D07C2A9",
+  "Official": false,
+  "Recommended": false
+}
