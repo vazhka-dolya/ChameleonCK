@@ -13,7 +13,6 @@ Byte at 01231F4D (near distance) changed from 64 to 01
 
 Tweaks applied:
 • Remove 'Black Bars' (Vert. Resolution Limit) (Applied by Default)
-• Accurate GFX plugins will have less input lag
 • B. Param 4 won't softlock
 • Culling of Objects Uses Wider Field of View
 • Disable low-poly mario
@@ -25,3 +24,5 @@ Tweaks applied:
 • Parallel Lakitu Camera
 • No air underwater
 • Remove Water Upwarp
+
+Note: 1.0.1 had the "Accurate GFX plugins will have less input lag" tweak removed with another tweak that I made that you can find here.
