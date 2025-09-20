@@ -1,4 +1,4 @@
-[Прочитать эту страницу по-русски](https://github.com/vazhka-dolya/ChameleonCK/blob/main/README.ru.md) | **Read this page in English**
+[Прочитать эту страницу по-русски](https://github.com/vazhka-dolya/ChameleonCK/blob/main/README.ru.md) · [Посмотреть список изменений в обновлениях по-русски](https://github.com/vazhka-dolya/ChameleonCK/blob/main/Changelog.ru.md) | **Read this page in English**
 # ChameleonCK
 **ChameleonCK** (or simply **Chameleon**; abbreviated to **CCK**) is a tool for chroma keying in Super Mario 64, which includes a [Mario 64 Movie Maker 3](https://github.com/projectcomet64/M64MM) add-on meant to be used together with a special ROM or save state. It is also highly recommended to use [Tiny-Huge Tweaks](https://github.com/vazhka-dolya/TinyHugeTweaks) alongside this tool.
 <p align="center">
@@ -11,7 +11,7 @@
 # Installing and using
 1. Make sure you have the [latest version of M64MM3](https://github.com/projectcomet64/M64MM/releases/latest) installed.
 2. Get the save state and/or the ROM version[^1] from [here](https://github.com/vazhka-dolya/ChameleonCK/tree/main/SM64) (ignore the `ROM Hack Source` folder if you're a normal user).
-3. Download the [latest version of the add-on](https://github.com/vazhka-dolya/ChameleonCK/releases/latest). It will be in a `.zip` archive.
+3. Download the [latest version of the add-on](https://github.com/vazhka-dolya/ChameleonCK/releases/latest). It will be in an archive.
 4. Extract the downloaded archive's contents[^2] into the root folder[^3] of M64MM3. If it prompts you to replace files, then do it.
 5. If you're using the ROM version:
    - Go to Bob-Omb Battlefield, which is replaced with the chroma key stage.
