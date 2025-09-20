@@ -117,47 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="cck_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cck_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="updates_unknown" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\updates_unknown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="updates_unknown_string" xml:space="preserve">
-    <value>Can't check for updates</value>
-  </data>
-  <data name="updates_outdated" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\updates_outdated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Не удалось проверить</value>
   </data>
   <data name="updates_latest_string" xml:space="preserve">
-    <value>Up-to-date</value>
-  </data>
-  <data name="updates_latest" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\updates_latest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Последняя версия</value>
   </data>
   <data name="updates_outdated_string" xml:space="preserve">
-    <value>Update available!</value>
-  </data>
-  <data name="updates_refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\updates_refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>Доступно обновление!</value>
   </data>
   <data name="updates_checking_string" xml:space="preserve">
-    <value>Checking…</value>
+    <value>Проверяем…</value>
   </data>
   <data name="updates_unknown_elaborate" xml:space="preserve">
-    <value>Could not check if you have the latest version.
+    <value>Не удалось проверить, последняя ли у Вас версия.
 
-Possible reasons:
-• The add-on has no access to the internet.
-• You've checked for updates too frequently (can lead to temporarily exceeding GitHub's API rate limit).
+Возможные причины:
+• адд-он не имеет доступа в интернет;
+• Вы слишком часто проверяли на обновления (может привести к временному ограничению API GitHub).
 
-Would you like to open the latest release's page on GitHub in your browser?</value>
+Хотите открыть страницу последней версии на GitHub в Вашем браузере?</value>
   </data>
   <data name="m64mm_open" xml:space="preserve">
-    <value>Open ChameleonCK</value>
+    <value>Открыть ChameleonCK</value>
   </data>
   <data name="m64mm_desc" xml:space="preserve">
-    <value>Easily configurable chroma key.</value>
+    <value>Легко настраиваемый хромакей.</value>
   </data>
 </root>

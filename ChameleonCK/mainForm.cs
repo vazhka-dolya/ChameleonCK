@@ -1,29 +1,36 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+﻿using ChameleonCK.Properties;
+using M64MM.Utils;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Diagnostics;
 using System.Drawing;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
+using System.Net.Http;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using M64MM.Utils;
 
 namespace ChameleonCK
 {
     public partial class mainForm : Form
     {
+        string IsLatestVersion = "Unknown";
+        string LatestVersion = "Unknown";
+        static string CreatorName = "vazhka-dolya";
+        static string AddonLinkName = "ChameleonCK";
+        static string AddonReleaseName = "ChameleonCK";
+
         private uint AddressSwimming = 0x253B62;
         private uint AddressHideStage = 0x0E000210;
         private uint AddressRoomColorCommand = 0x0E0001F8;
         private uint AddressRoomColor = 0x0E0001FC;
         private uint AddressBGColor = 0x0802B604;
         static frmAbout about = new frmAbout();
+
         public mainForm()
         {
             InitializeComponent();
+
+            this.Load += mainForm_Load;
+
             ReadFromGame();
         }
 
@@ -155,6 +162,87 @@ namespace ChameleonCK
             Core.WriteBytes(Core.SegmentedToVirtual(AddressHideStage), data);
         }
 
+        // Version search methods
+
+        private async void mainForm_Load(object sender, EventArgs e)
+        {
+            await CheckForUpdates();
+        }
+
+        private void UpdatesButtonPress()
+        {
+            switch (IsLatestVersion)
+            {
+                case "True":
+                    Process.Start($"https://github.com/{CreatorName}/{AddonLinkName}/releases");
+                    break;
+                case "False":
+                    Process.Start($"https://github.com/{CreatorName}/{AddonLinkName}/releases/latest");
+                    break;
+                default:
+                    DialogResult result = MessageBox.Show(
+                        Resources.updates_unknown_elaborate,
+                        Resources.updates_unknown_string,
+                        MessageBoxButtons.YesNo,
+                        MessageBoxIcon.Question
+                    );
+
+                    if (result == DialogResult.Yes)
+                    {
+                        Process.Start($"https://github.com/{CreatorName}/{AddonLinkName}/releases/latest");
+                    }
+                    break;
+            }
+        }
+
+        private async Task CheckForUpdates()
+        {
+            optionsToolStripMenuItem.Image = Resources.updates_unknown;
+            updatesToolStripMenuItem.Image = Resources.updates_unknown;
+            updatesToolStripMenuItem.Text = Resources.updates_checking_string;
+
+            try
+            {
+                using (HttpClient client = new HttpClient())
+                {
+                    client.DefaultRequestHeaders.Add("User-Agent", $"{AddonLinkName}")
+;
+                    var LatestResponse = await client.GetStringAsync($"https://api.github.com/repos/{CreatorName}/{AddonLinkName}/releases/latest");
+
+                    JObject json = JObject.Parse(LatestResponse);
+                    LatestVersion = (string)json["name"];
+
+                    if ($"{AddonReleaseName} v" + ProductVersion == LatestVersion)
+                        IsLatestVersion = "True";
+                    else IsLatestVersion = "False";
+                }
+            }
+            catch
+            {
+                IsLatestVersion = "Unknown";
+                LatestVersion = "Unknown";
+            }
+
+            switch (IsLatestVersion)
+            {
+                case "True":
+                    optionsToolStripMenuItem.Image = Resources.updates_latest;
+                    updatesToolStripMenuItem.Image = Resources.updates_latest;
+                    updatesToolStripMenuItem.Text = Resources.updates_latest_string;
+                    break;
+                case "False":
+                    optionsToolStripMenuItem.Image = Resources.updates_outdated;
+                    updatesToolStripMenuItem.Image = Resources.updates_outdated;
+                    updatesToolStripMenuItem.Text = Resources.updates_outdated_string;
+                    break;
+                default:
+                    optionsToolStripMenuItem.Image = Resources.updates_unknown;
+                    updatesToolStripMenuItem.Image = Resources.updates_unknown;
+                    updatesToolStripMenuItem.Text = Resources.updates_unknown_string;
+                    break;
+            }
+        }
+
         // All of the following is just methods for the UI
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
@@ -186,6 +274,16 @@ namespace ChameleonCK
         private void toolReadFromGame_Click(object sender, EventArgs e)
         {
             ReadFromGame();
+        }
+
+        private void updatesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UpdatesButtonPress();
+        }
+
+        private async void updatesRefreshToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            await CheckForUpdates();
         }
     }
 }

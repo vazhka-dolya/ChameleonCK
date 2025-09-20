@@ -127,6 +127,12 @@
   <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
   <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -143,17 +149,14 @@
   <data name="btnPickColor.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;Tooltip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;updatesRefreshToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="checkSwimming.Text" xml:space="preserve">
     <value>Swimming</value>
   </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
-  </data>
-  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>999, 999</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -311,13 +314,8 @@
         AAA=
 </value>
   </data>
-  <data name="checkSwimming.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 17</value>
-  </data>
-  <data name="checkHideStage.ToolTip" xml:space="preserve">
-    <value>Hides the visual part of the stage.
-
-Enable if you want to see parts of Mario that are behind the floor/walls/ceiling.</value>
+  <data name="updatesRefreshToolStripMenuItem.Text" xml:space="preserve">
+    <value>Check for Updates again</value>
   </data>
   <data name="&gt;&gt;toolReadFromGame.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -334,11 +332,11 @@ Enable if you want to see parts of Mario that are behind the floor/walls/ceiling
   <data name="&gt;&gt;btnPickColor.Name" xml:space="preserve">
     <value>btnPickColor</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;Tooltip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="toolReadFromGame.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 22</value>
+    <value>203, 22</value>
   </data>
   <data name="checkHideStage.Text" xml:space="preserve">
     <value>Hide Stage</value>
@@ -352,8 +350,14 @@ Enable if you want to see parts of Mario that are behind the floor/walls/ceiling
   <data name="&gt;&gt;toolReadFromGame.Name" xml:space="preserve">
     <value>toolReadFromGame</value>
   </data>
+  <data name="&gt;&gt;updatesRefreshToolStripMenuItem.Name" xml:space="preserve">
+    <value>updatesRefreshToolStripMenuItem</value>
+  </data>
   <data name="&gt;&gt;ChromaDialog.Name" xml:space="preserve">
     <value>ChromaDialog</value>
+  </data>
+  <data name="updatesRefreshToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
   </data>
   <data name="&gt;&gt;checkHideStage.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -374,23 +378,35 @@ Enable if you want to see parts of Mario that are behind the floor/walls/ceiling
   <data name="&gt;&gt;checkHideStage.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;updatesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="checkHideStage.Size" type="System.Drawing.Size, System.Drawing">
     <value>79, 17</value>
   </data>
   <data name="&gt;&gt;checkSwimming.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
+  <data name="updatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
   </data>
   <data name="menuStrip1.Text" xml:space="preserve">
     <value>menuStrip1</value>
   </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
   <data name="&gt;&gt;optionsToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;checkSwimming.Name" xml:space="preserve">
+    <value>checkSwimming</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 6</value>
+  </data>
   <data name="optionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 20</value>
+    <value>77, 20</value>
   </data>
   <data name="&gt;&gt;optionsToolStripMenuItem.Name" xml:space="preserve">
     <value>optionsToolStripMenuItem</value>
@@ -399,6 +415,9 @@ Enable if you want to see parts of Mario that are behind the floor/walls/ceiling
     <value>Synchronises the UI with what is currently in SM64.
 
 This automatically performs when opening the add-on.</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btnPickColor.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 27</value>
@@ -411,6 +430,12 @@ This automatically performs when opening the add-on.</value>
   </data>
   <data name="btnPickColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;updatesToolStripMenuItem.Name" xml:space="preserve">
+    <value>updatesToolStripMenuItem</value>
+  </data>
+  <data name="updatesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Checking…</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
     <value>204, 24</value>
@@ -442,8 +467,8 @@ This automatically performs when opening the add-on.</value>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>204, 87</value>
   </data>
-  <data name="&gt;&gt;checkSwimming.Name" xml:space="preserve">
-    <value>checkSwimming</value>
+  <data name="checkSwimming.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 17</value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 20</value>
@@ -460,8 +485,13 @@ This automatically performs when opening the add-on.</value>
   <data name="btnPickColor.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="checkHideStage.ToolTip" xml:space="preserve">
+    <value>Hides the visual part of the stage.
+
+Enable if you want to see parts of Mario that are behind the floor/walls/ceiling.</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
     <value>aboutToolStripMenuItem</value>

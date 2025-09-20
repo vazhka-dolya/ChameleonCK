@@ -302,7 +302,7 @@ Fuck You Want To Public License.</value>
     <value>214, 95</value>
   </data>
   <data name="htmlLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>216, 119</value>
+    <value>217, 119</value>
   </data>
   <data name="htmlLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -329,7 +329,7 @@ Fuck You Want To Public License.</value>
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>453, 215</value>
+    <value>468, 215</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

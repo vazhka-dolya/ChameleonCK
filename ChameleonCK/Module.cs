@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
-using System.Text;
 using M64MM.Additions;
-using M64MM.Utils;
 using ChameleonCK.Properties;
-using System.Diagnostics;
 
 namespace ChameleonCK
 {
@@ -15,7 +12,7 @@ namespace ChameleonCK
 
         public string SafeName => "ChameleonCK";
 
-        public string Description => "Easily configurable chroma key.";
+        public string Description => Resources.m64mm_desc;
 
         public Image AddonIcon => Resources.cck_logo;
 
@@ -27,7 +24,7 @@ namespace ChameleonCK
         public List<ToolCommand> GetCommands()
         {
             List<ToolCommand> tcl = new List<ToolCommand>();
-            ToolCommand tcOpen = new ToolCommand("Open ChameleonCK");
+            ToolCommand tcOpen = new ToolCommand(Resources.m64mm_open);
             tcOpen.Summoned += (a, b) => openForm();
             tcl.Add(tcOpen);
             return tcl;

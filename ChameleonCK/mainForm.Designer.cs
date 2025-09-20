@@ -33,6 +33,9 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolReadFromGame = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.updatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.updatesRefreshToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnPickColor = new System.Windows.Forms.Button();
             this.checkSwimming = new System.Windows.Forms.CheckBox();
@@ -55,7 +58,11 @@
             // 
             resources.ApplyResources(this.optionsToolStripMenuItem, "optionsToolStripMenuItem");
             this.optionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolReadFromGame});
+            this.toolReadFromGame,
+            this.toolStripSeparator1,
+            this.updatesToolStripMenuItem,
+            this.updatesRefreshToolStripMenuItem});
+            this.optionsToolStripMenuItem.Image = global::ChameleonCK.Properties.Resources.updates_unknown;
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
             // 
             // toolReadFromGame
@@ -64,6 +71,25 @@
             this.toolReadFromGame.AutoToolTip = true;
             this.toolReadFromGame.Name = "toolReadFromGame";
             this.toolReadFromGame.Click += new System.EventHandler(this.toolReadFromGame_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            // 
+            // updatesToolStripMenuItem
+            // 
+            resources.ApplyResources(this.updatesToolStripMenuItem, "updatesToolStripMenuItem");
+            this.updatesToolStripMenuItem.Image = global::ChameleonCK.Properties.Resources.updates_unknown;
+            this.updatesToolStripMenuItem.Name = "updatesToolStripMenuItem";
+            this.updatesToolStripMenuItem.Click += new System.EventHandler(this.updatesToolStripMenuItem_Click);
+            // 
+            // updatesRefreshToolStripMenuItem
+            // 
+            resources.ApplyResources(this.updatesRefreshToolStripMenuItem, "updatesRefreshToolStripMenuItem");
+            this.updatesRefreshToolStripMenuItem.Image = global::ChameleonCK.Properties.Resources.updates_refresh;
+            this.updatesRefreshToolStripMenuItem.Name = "updatesRefreshToolStripMenuItem";
+            this.updatesRefreshToolStripMenuItem.Click += new System.EventHandler(this.updatesRefreshToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
@@ -137,6 +163,9 @@
         private System.Windows.Forms.ColorDialog ChromaDialog;
         private System.Windows.Forms.ToolStripMenuItem optionsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolReadFromGame;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripMenuItem updatesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem updatesRefreshToolStripMenuItem;
     }
 }
 

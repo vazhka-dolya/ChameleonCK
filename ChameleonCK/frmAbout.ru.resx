@@ -151,13 +151,10 @@ Fuck You Want To Public License</value>
     <value>NoControl</value>
   </data>
   <data name="htmlLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>226, 119</value>
+    <value>227, 119</value>
   </data>
   <data name="htmlLabel1.Text" xml:space="preserve">
     <value>&lt;p style="font-size:11px;font-family:'Microsoft Sans Serif'"&gt;От DanilAstroid, или же vazhka-dolya&lt;br&gt;(&lt;a href="https://www.youtube.com/channel/UCCrO_HQsasKN7Zwlp3D8UWQ"&gt;YouTube&lt;/a&gt;, &lt;a href="https://github.com/vazhka-dolya"&gt;GitHub&lt;/a&gt;).&lt;br&gt;&lt;br&gt;Выражается благодарность:&lt;br&gt;• GlitchyPSI (&lt;a href="https://glitchypsi.xyz"&gt;его сайт&lt;/a&gt;) — помощь с этим&lt;br&gt;адд-оном;&lt;br&gt;• LiquoricePie (&lt;a href="https://bsky.app/profile/liquoricepie.bsky.social"&gt;Bluesky&lt;/a&gt;) — иконка для адд-она.&lt;/p&gt;</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>454, 215</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
