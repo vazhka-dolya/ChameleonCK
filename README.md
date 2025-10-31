@@ -23,7 +23,6 @@
 7. That's all.
 
 # Questions
-
 ### “If I use ChameleonCK for my work, do I have to credit you?”
 Credit is highly appreciated, but completely optional!
 
